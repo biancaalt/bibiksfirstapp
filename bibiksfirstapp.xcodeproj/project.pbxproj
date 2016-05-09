@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33B5A6530327DA20CCD74587 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3929B6A03E0D111A25AE378D /* libPods.a */; };
+		4DBBD2281CE0FF150045AB63 /* BibikViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBD2261CE0FF150045AB63 /* BibikViewController.m */; };
+		4DBBD2291CE0FF150045AB63 /* BibikViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBD2271CE0FF150045AB63 /* BibikViewController.xib */; };
 		5B24E4691A80FBB700230072 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B24E4681A80FBB700230072 /* Constants.m */; };
 		5BECD2931A6FEF2D00A48259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28D1A6FEF2D00A48259 /* Images.xcassets */; };
 		5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECD28E1A6FEF2D00A48259 /* LaunchScreen.xib */; };
@@ -20,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		3929B6A03E0D111A25AE378D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBBD2251CE0FF150045AB63 /* BibikViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BibikViewController.h; path = "../../../onboard-walkthrough/onboard-walkthrough/Modules/BibikViewController.h"; sourceTree = "<group>"; };
+		4DBBD2261CE0FF150045AB63 /* BibikViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BibikViewController.m; path = "../../../onboard-walkthrough/onboard-walkthrough/Modules/BibikViewController.m"; sourceTree = "<group>"; };
+		4DBBD2271CE0FF150045AB63 /* BibikViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BibikViewController.xib; path = "../../../onboard-walkthrough/onboard-walkthrough/Modules/BibikViewController.xib"; sourceTree = "<group>"; };
+		4DBBD22A1CE0FFBF0045AB63 /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugMacros.h; path = "../../../onboard-walkthrough/onboard-walkthrough/Categories/DebugMacros.h"; sourceTree = "<group>"; };
 		5B24E4671A80FBB700230072 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5B24E4681A80FBB700230072 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		5BAC04961A695923004805CC /* bibiksfirstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibiksfirstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +137,9 @@
 		5BFCA8D11A7928B0001B1BA5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4DBBD2251CE0FF150045AB63 /* BibikViewController.h */,
+				4DBBD2261CE0FF150045AB63 /* BibikViewController.m */,
+				4DBBD2271CE0FF150045AB63 /* BibikViewController.xib */,
 				5BFCA8D21A7928B0001B1BA5 /* Home */,
 			);
 			path = Modules;
@@ -155,6 +164,7 @@
 		5BFCA8D91A792AE7001B1BA5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4DBBD22A1CE0FFBF0045AB63 /* DebugMacros.h */,
 				5BFCA8DA1A792AE7001B1BA5 /* ViewComponents */,
 			);
 			path = Components;
@@ -242,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBBD2291CE0FF150045AB63 /* BibikViewController.xib in Resources */,
 				5BECD2961A6FEF2D00A48259 /* Info.plist in Resources */,
 				5BECD2951A6FEF2D00A48259 /* Main.storyboard in Resources */,
 				5BECD2941A6FEF2D00A48259 /* LaunchScreen.xib in Resources */,
@@ -308,6 +319,7 @@
 				5BFCA8D51A7928C5001B1BA5 /* HomeViewController.m in Sources */,
 				5BFCA8DE1A792BE1001B1BA5 /* AppDelegate.m in Sources */,
 				5B24E4691A80FBB700230072 /* Constants.m in Sources */,
+				4DBBD2281CE0FF150045AB63 /* BibikViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +415,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.biancaalt.bibiksfirstapp;
 				INFOPLIST_FILE = "bibiksfirstapp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -417,6 +430,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.biancaalt.bibiksfirstapp;
 				INFOPLIST_FILE = "bibiksfirstapp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "QA-$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -470,6 +484,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID = br.com.biancaalt.bibiksfirstapp;
 				INFOPLIST_FILE = "bibiksfirstapp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

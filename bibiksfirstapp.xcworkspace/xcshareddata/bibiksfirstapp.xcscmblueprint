@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CF63ACA57A8794D8BC767185A62E7EBFC2462D11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "62F3E2EDC5278FD7472FB9C5F465362CAAA30155" : 0,
+    "CF63ACA57A8794D8BC767185A62E7EBFC2462D11" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18530571-685B-41F6-BD4F-09EB8C5D1D77",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "62F3E2EDC5278FD7472FB9C5F465362CAAA30155" : "onboard-walkthrough\/",
+    "CF63ACA57A8794D8BC767185A62E7EBFC2462D11" : "bibiksfirstapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bibiksfirstapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bibiksfirstapp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/indigotech\/labs-on-board-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62F3E2EDC5278FD7472FB9C5F465362CAAA30155"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/biancaalt\/bibiksfirstapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF63ACA57A8794D8BC767185A62E7EBFC2462D11"
+    }
+  ]
+}
